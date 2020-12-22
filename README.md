@@ -293,7 +293,7 @@ save(file="clip-meta/processed_files/clip/CLIP_rCCS_Breast.RData", brca.rCCSmat.
 ```r
 #Source the following R file to run CLIP benchmarking
 source("clip-meta/R/clip/clip_benchmark.R")
-..
+
 ``` 
 
 ### Reproduciblity analyses
@@ -302,7 +302,7 @@ source("clip-meta/R/clip/clip_benchmark.R")
 #Source the following R files to run correlation analyses between datasets
 source("clip-meta/R/reproducibility_analysis/reproducibility_analysis_functions.R")
 source("clip-meta/R/reproducibility_analysis/reproducibility_analysis.R")
-..
+
 ``` 
 
 ## Citation
@@ -319,5 +319,3 @@ source("clip-meta/R/reproducibility_analysis/reproducibility_analysis.R")
 
 
 
-# clip-meta
-# clip-meta

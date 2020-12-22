@@ -17,6 +17,13 @@ First, we define the notion of a “Cancer Cell line Specific” (CCS) gene; as 
 
 ## CLIP pipeline execution
 
+
+### Download processed datasets 
+```r
+#All h5 format processed datasets can be downloaded from from: https://doi.org/10.6084/m9.figshare.13473168
+#Save datasets in clip-meta/data folder
+``` 
+
 ### Step 1
 
 ```r
@@ -40,8 +47,6 @@ homo.genes.coding <- homo.genes.coding.table$V3
 
 #load processed datasets for each modality 
 
-#Download all h5 format processed datasets from: https://doi.org/10.6084/m9.figshare.13473168
-#Save datasets in clip-meta/data folder
 
 #Methylation profiles
 source("clip-meta/R/reproducibility_analysis/reproducibility_analysis_functions.R")
